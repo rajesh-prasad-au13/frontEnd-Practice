@@ -1,0 +1,23 @@
+body{
+    font-size: 32px;
+}
+.parent-one{
+    font-size: 20px;
+}
+.child-one{
+    width: 10em;
+    height: 10em;
+    background-color: purple;
+}
+
+.parent-two{
+    font-size: 16px;
+}
+.child-two{
+    /* 1em = 16px if parent has 16px.
+    1em = 32px if parent has nothing defined bcz
+    If font-size is not defined explicitly, that element will inherit it from the parent element. The inheritance continues to take place this way amongst ancestors up until the root element. */
+    width: 10em;    
+    height: 10em;   
+    background-color: green;
+}

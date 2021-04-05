@@ -1,0 +1,31 @@
+
+html{
+    font-size: 62.5%;
+} 
+.one{ 
+    width: 20rem;    /*1 rem = 10px so 20rem = 200px */
+    height: 20rem;
+    background-color: black;
+} 
+.two{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+} 
+
+/*
+html{
+    font-size: 100%;
+    font-size:16px;
+}
+.one{
+    width: 20rem;   1 rem = 16px so 20rem = 320px
+    height: 20rem;
+    background-color: black;
+}
+.two{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+*/
